@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# User data & history logs
+backend/data/history.json
+backend/data/metadata.json
+
+# Temporary/upload directories
+uploads/*
+downloads/*
+temp/*
+!uploads/.gitkeep
+!downloads/.gitkeep
+!temp/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+compression/huffman
+compression/huffman.exe
+compression/huffman.obj
+*.o
+*.obj
+*.exe
